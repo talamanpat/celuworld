@@ -1,0 +1,20 @@
+/* 
+    Document   : sitemap
+    Created on : 25-08-2011, 12:56:21 AM
+    Author     : talaman
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+#contenedorSitemap{
+ text-align: left;   
+}
+

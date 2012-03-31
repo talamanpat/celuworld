@@ -1,0 +1,6 @@
+[13-Jul-2011 01:35:41] PHP Fatal error:  Cannot unset string offsets in /home/talamanc/public_html/desarrollo/celuworld/cake/libs/view/helpers/html.php on line 303
+[13-Jul-2011 01:35:46] PHP Fatal error:  Cannot unset string offsets in /home/talamanc/public_html/desarrollo/celuworld/cake/libs/view/helpers/html.php on line 303
+[31-Aug-2011 21:21:14] PHP Fatal error:  Call to a member function find() on a non-object in /home/talamanc/public_html/celuworld.com/cms/controllers/precios_controller.php on line 37
+[31-Aug-2011 21:25:17] PHP Fatal error:  Cannot use string offset as an array in /home/talamanc/public_html/celuworld.com/cms/views/precios/add.ctp on line 5
+[07-Sep-2011 18:59:53] PHP Fatal error:  Call to a member function find() on a non-object in /home/talamanc/public_html/celuworld.com/cms/controllers/especificaciones_controller.php on line 51
+[13-Sep-2011 16:47:14] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/talamanc/public_html/celuworld.com/cms/controllers/noticias_controller.php on line 79

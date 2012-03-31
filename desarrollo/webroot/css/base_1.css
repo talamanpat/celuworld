@@ -1,0 +1,418 @@
+@charset "utf-8";
+
+body { margin:0px; padding:0px; background-color:#e2e2e2;
+       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+       font-size:100%
+}
+
+.bg_top {
+    background:url(../img/t-dr.png) repeat-x top;
+    width:100%;
+    text-align:center;
+    min-width: 1180px;
+}
+
+#Main {
+    width:1180px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+#Header {width:1180px;height:89px;}
+
+#HeaderLogo {
+    width:270px;
+    float:left;
+    padding: 20px 0 0 20px;
+    height: 48px;
+}
+
+#Warp {
+    width:1179px;
+    height:auto;
+    background-color:#FFF;
+    border-bottom:#e2e2e2 solid 50px;
+    overflow:hidden;
+}
+
+#BordeIz {
+    width:5px;
+    height:1000px;
+    float:left;
+
+}
+#BordeDer {
+    width:5px;
+    height:990px;
+    float:Right;
+
+
+}
+#BordeSup {
+    width:1170px;
+    height:4px;
+    float:Right;
+    background-image: url(../img/BordeSup.jpg);
+}
+
+
+#Contenido {
+    background-color:#ffffff; 
+    width:1177px;
+    height:auto;
+    overflow:hidden;
+    border: #ccc 1px solid;
+}
+#ContenidoColIz {
+    width:825px;
+    height:auto;
+    float: left;
+    padding: 0 15px 0px 27px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#Position1 {
+    width:818px;
+    height:auto;
+    overflow: hidden;
+}
+#ContendorPosition2-3 {
+    width:811px;
+    height:215px;
+    padding-top: 20px;
+    border-bottom:#CCC 1px solid;
+}
+#Position2 {
+    width:442px;
+    height:195px;
+    float: left;
+}
+#Position3 {
+    width:351px;
+    height:195px;
+    float: right;
+}
+#Position4 {
+    width:811px;
+    height:144px;
+    padding-top: 20px;
+}
+#ContendorPosition5-6 {
+    width:811px;
+    height:325px;
+    padding-top: 30px;
+}
+#Position5 {
+    width:265px;
+    height:325px;
+    float:left;
+}
+#ContenidoColDer {
+    
+    border-left:#CCC 1px solid;
+    width:250px;
+    height:auto;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0 27px 0 30px;
+    font-size: 12px;
+    color: #333;
+}
+
+
+.BarraTitulo {
+    height: 27px;
+    background-image: url(../img/FondoTituloColIz.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 248px;
+    border: #7BE31D 1px solid;
+    margin-bottom:0/*20px*/;
+}
+.BarraTituloInferior {
+    height: 20px;
+    background-image: url(../img/FondoTituloColIz.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 248px;
+    border: #7BE31D 1px solid;
+    margin-top:0/*20px*/;
+}
+.BarraTituloGris {
+    color:#FFFFFF;
+    height: 27px;
+    background-image: url(../img/FondoTituloColDerVt.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 248px;
+    border: #6B716E 1px solid;
+    margin-bottom:0/*20px*/;
+}
+.BarraTituloGrisInferior {
+    color:#FFFFFF;
+    height: 20px;
+    background-image: url(../img/FondoTituloColDerVt.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 248px;
+    border: #6B716E 1px solid;
+    margin-bottom:0/*20px*/;
+}
+
+.sideElement {
+    width:auto;
+    height:auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+#MenuPrincipal {
+    width:1180px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    height: 59px;
+}
+#MenuPrincipal a:link ,#MenuPrincipal a:visited ,#MenuPrincipal a:active {
+    color:#666;
+    font-family: 'Anton', sans-serif;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:13px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+#MenuPrincipal a:hover {
+    color:#A7C728;
+}
+#MenuPrincipal a:hover .Menu1,#MenuPrincipal a:hover .Menu2,#MenuPrincipal a:hover .Menu3{
+    background-color: #F8F8F8;
+    font-weight: lighter;
+}
+
+.Lineamenu1 {
+    height:60px;
+    width:1px;
+    overflow:hidden;
+    background-color:#CCC;
+    float:left;
+}
+.Lineamenu3 {
+    height:60px;
+    width:1px;
+    overflow:hidden;
+    background-color:#F2F2F2;
+    float:left;
+}
+
+.Menu1 {
+    width:80px;
+    padding:25px 20px 20px 20px;
+    height:15px;
+    border-right:#CCC solid 1px;
+    text-align:center;
+    margin: 0;
+    word-spacing: 20px;
+    float: left;
+    border-left: #F2F2F2 solid 1px;
+}
+.Menu2 {
+    width:80px;
+    padding:25px 20px 20px 20px;
+    height:15px;
+    border-right:#CCC solid 1px;
+    text-align:center;
+    float: left;
+    border-left:  #F2F2F2 solid 1px;
+}
+.Menu3 {
+    width:80px;
+    padding:15px 20px 20px 20px;
+    height:25px;
+    border-right:#CCC solid 1px;
+    text-align:center;
+    float: left;
+    border-left:  #F2F2F2 solid 1px;
+}
+
+
+/*talaman*/
+#Contenido,.contenedor-vt,.contenedor-vt-telefono,img, #panel,#sobreCeluworld,#noticias,
+#contenedor-vt-descripcion,#contenedor-vt-telefono,.CaracteriticaContenedorTabla, #fancybox-content,#fancybox-outer{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.slide object,.example object
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.ContenedorBandera a img{
+    -webkit-border-radius: 6px; 
+    -o-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.CaractTiruloPrecios img, .BloqueInfBarraTitulo table tr th img{
+    -webkit-border-radius: 1px;
+    -o-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+.VtBarraTituloPrincipal,.VtBarraTitulo,.BarraTitulo,.BarraTituloGris,.BarraTituloHomeGris{ 
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+.CaractBloqueSubVistas,.BarraTituloInferior,.BarraTituloGrisInferior,.ContenidoSlider{
+    -webkit-border-radius:  0 0 5px 5px;
+    -o-border-radius:0 0 5px 5px ;
+    -moz-border-radius:0 0 5px 5px ;
+    border-radius: 0 0 5px 5px;
+}
+.ContenidoSubVistasPreciosTabla{
+    overflow:hidden;
+    -webkit-border-radius:  0 5px 5px 5px;
+    -o-border-radius:0 5px  5px 5px ;
+    -moz-border-radius:0 5px  5px 5px ;
+    border-radius: 0 5px  5px 5px;
+}
+.Icono{
+    overflow:hidden;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    -o-border-radius: 5px 0 0 0;
+    border-radius: 5px 0 0 0;
+}
+#paisSelect{
+border: gray solid 2px;
+}
+#contenedor-busqueda{
+    float: right; 
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#Footer {
+    width:auto;
+    height:230px;
+    background-color:#666;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0 40px;
+}
+
+#logos{
+    float: right;
+    margin-top: 35px;
+}
+
+#footerTxt{
+    float: left;
+   margin-top: 40px;
+   width: 650px;
+   text-align: left;
+}
+#footerTxt p{
+    font-size: 12px;
+    color: #E2E2E2;
+    margin: 0;
+}
+#footerTxt p a:link,#footerTxt p a:active,#footerTxt p a:visited{
+    color: #E6E49F;
+}
+#footerTxt p a:hover{
+    color: yellow;
+}
+p#navFooter{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#html5{
+    width:165px;
+    height:64px;
+}
+#cakePhp{
+    height:95px;
+}
+#jqueryLogo{
+    height:80px;
+}
+
+a:link,a:active,a:visited{
+    color:#F90;
+    text-decoration: none;
+}
+a:hover{
+    color:#6C0
+}
+
+
+
+
+
+
+
+.VtBarraTituloPrincipal{
+    width:100%;
+    height:29px;
+    background-image: url(../img/FondoTituloColDerVt.png);
+}
+.VtBarraTituloPrincipal H1,.VtBarraTituloPrincipal H2{
+    margin: 0;
+    margin-left: 5px;
+    padding: 4px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #FFF;
+    font-weight: bold;
+    text-align: left;
+}
+#TituloPaginaGener {
+    width:100%;
+    height:auto;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    margin-left: 2px;
+    overflow:hidden;
+    text-align: left;
+}
+#TituloPaginaGener h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+    margin:0;
+    display: block;
+}
+
+.VtBarraTituloPrincipal,#preciosTitulo,.BarraTituloHomeGris{
+   background-color: #6B716E ;
+}
+.BarraTitulo,.BarraTituloInferior,.BloqueInfBarraTitulo th,.CaractTiruloPrecios{
+    background-color: #7BE31D;
+    
+}
+a img {  
+border: none;  
+}
+a.email:link,a.email:visited,a.email:active{
+ color: #6C0;   
+}
+a.email:hover{
+    color:#00773F;
+}

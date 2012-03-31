@@ -1,0 +1,2 @@
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=213850628660968&amp;xfbml=1"></script>
+<fb:like  send="true" layout="button_count" width="70" show_faces="true" font="trebuchet ms"></fb:like>

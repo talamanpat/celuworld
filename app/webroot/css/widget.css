@@ -1,0 +1,156 @@
+/*
+Name: Sliding Login Panel with jQuery 1.3.2
+Author: Jeremie Tisseau
+Author URI: http://web-kreation.com/
+Date: March 26, 2009
+Version: 1.0
+
+	Copyright 2009 Jeremie Tisseau
+	"Sliding Login Panel with jQuery 1.3.2" is distributed under the GNU General Public License version 3:
+	http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/***** clearfix *****/
+.clear {clear: both;height: 0;line-height: 0;}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	margin: 0;
+}
+.clearfix {
+	display: inline-block;
+	margin: 0;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+	margin: 0;
+}
+.clearfix {
+	display: block;
+	margin: 0;
+}
+/* End hide from IE-mac */
+.clearfix {
+	height: 1%;
+	margin: 0;
+}
+.clearfix {
+	display: block;
+	margin: 0;
+}
+
+/* Panel Tab/button */
+.menuTab {
+	width:210px;
+	float:right;
+	height: 30px;
+	margin-top: 0px;
+	}
+.tab {
+	height: 40px;
+	z-index: 999;
+	float: right;
+	width: 813px;
+	position: static;
+}
+
+.tab ul.login {
+	float: right;
+	height: 40px;
+/*	width: 772px;*/
+	font-weight: bold;
+	margin: 0;
+	color: white;
+	font-size: 80%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.tab ul.login li {
+	float: right;
+	height: 20px;
+	width: 200px;
+	margin-top: 0px;
+}
+
+.tab ul.login li a {
+	color: #F90;
+/*	color: #6B716E;*/
+text-transform: uppercase;
+	margin-top: 0px;
+	width: 60px;
+	text-decoration: none;
+}
+
+.tab ul.login li a:hover {
+	color: #7BE31D;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+
+.tab .sep {color:#414141}
+
+.tab a.open, .tab a.close {
+	height: 20px;
+	padding-left: 30px !important;
+	cursor: pointer;
+	width: 70px;
+	position: relative;
+	top: 11px;
+	float: right;
+	margin-top: 0px;
+	text-decoration: none;
+	padding-right: -20px;
+}
+
+.tab a.open {
+	background: url(../img/bt_open.png) no-repeat left -19px;
+	margin-top: -20px;
+	text-decoration: none;
+}
+.tab a.close {
+	background: url(../img/bt_close.png) no-repeat left 0;
+	margin-top: 0px;
+	text-decoration: none;
+}
+.tab a:hover.open {
+	background: url(../img/bt_open.png) no-repeat left 0;
+/*	text-decoration: none;*/
+}
+.tab a:hover.close {
+	background: url(../img/bt_close.png) no-repeat left -19px;
+/*	text-decoration: none;*/
+}
+
+/* sliding panel */
+#toppanel {
+	/*position: relative;*/   /*Panel will "push" the content down */
+    top: 0;
+	width: 810px;
+	z-index: 999;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#panel {
+	width: 810px;
+	height: 230px;
+	background: #F8F8F8;
+	border-top: #ccc 1px solid;
+	border-bottom: #ccc 1px solid;
+	border-left: #ccc 1px solid;
+	border-right: #ccc 1px solid;
+        overflow: hidden;
+}
+#filtrosFix{
+    display: none;
+}

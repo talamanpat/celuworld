@@ -1,0 +1,1 @@
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="<?php e($url);?>" data-count="vertical" data-via="celuworld" data-lang="es">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /paises/
+Disallow: /desarrollo/
+Disallow: /desarrollo1/
+Disallow: /lista/smarts/
+Disallow: /lista/smart/
+Disallow: /cms/
+Allow: /
+Sitemap: http://celuworld.com/sitemap/google

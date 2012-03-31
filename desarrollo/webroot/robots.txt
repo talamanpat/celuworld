@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /paises/selectPais/
+Disallow: /cms/
+Allow: /
+Sitemap: http://celuworld.com/sitemap/google

@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+.contenedor{
+    width:806px;
+    background-color: #F8F8F8;
+    border: #CCC solid 1px;
+}
+.ContenidoSubVistasPreciosTabla{
+    width:809px;
+    background-color: #F8F8F8;
+    border: #CCC solid 1px;
+}
+
+.ContenidoSubVistasPreciosTabla p{
+    margin: 5px 5px 0 5px;    
+    font-size: 12px;
+}
+
+#contenedor-vt-telefono {
+    height:310px;
+}
+#titulo-descripcion{
+    margin-top: 30px;
+    width: 350px;
+}
+#titulo-analisis{
+    margin-top: 20px;
+}
+#titulo-caracteristicas{
+    margin-top: 30px;
+}
+#titulo-precios{
+    margin-top: 30px;
+}
+
+
+.ColIz {
+    width:403px;
+    height:300px;
+    float:left;
+    border-right:#CCC solid 1px;
+    padding-top: 10px;
+}
+.ColDer {
+    width:395px;
+    height:300px;
+    float:left;
+    border-left:#FFF solid 1px;
+    padding-top: 10px;
+}
+
+#descripcion {
+    min-height: 115px;
+    width: 400px;
+    float: left;
+}
+.ColIzDesc {
+    width:403px;
+    float:left;
+    border-right:#CCC solid 1px;
+    height: 115px;
+}
+.ColDerDesc {
+    width:401px;
+    float:left;
+    border-left:#FFF solid 1px;
+    height: 115px;
+}
+
+#SliderVt {
+    width:405px;
+    height:298px;
+}
+#contenedor-vt-precios {
+    width:807px;
+    height:auto;
+}
+
+.CaractTiruloPrecios {
+    color: #333;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image:url(../img/FondoPrecio.jpg)
+}
+.CaractContenidoPrecios {
+    color: #333;
+    font-size: 12px;
+    line-height: 15px;
+    background-color:#F8F8F8;
+    border-bottom: #e0dede 1px solid;
+}
+.ContenidoSubVistasPreciosTabla{
+    border:#CCC 1px solid;
+}
+#contenedor-vt-carac {
+    width:807px;
+    height:auto;
+    overflow: hidden
+}
+.CaracteriticaContenedorTabla{
+    border:#e0dede 1px solid;
+    width: 260px;
+    float: left;
+    overflow: hidden;
+}
+.CaracteriticaContenedorTabla table{
+    width:260px; 
+    border:0; 
+    border-spacing: 0;  
+
+}
+.CaracteriticaContenedorTabla table tr th {
+    text-align: left;
+    vertical-align: middle;
+    padding-top:  10px;
+    padding-bottom:  10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    font-size:12px;
+    color:#333;
+    width:100px;
+    font-weight: bold;
+    background-color: #ECECEC;
+    border-bottom: #e0dede 1px solid;
+}
+.CaracteriticaContenedorTabla table tr td {
+
+    vertical-align: middle;
+    text-align: center;
+    padding-top:  10px;    
+    padding-bottom:  10px;
+    font-size:12px;    
+    color: #333;
+    background-color:#F8F8F8;
+    border-bottom: #e0dede 1px solid;
+} 
+#carac1{
+    margin-right: 10px;
+    width: 200px;
+}
+#carac1 table{    
+    width: 200px;
+}
+#carac1 table tr th{
+    width: 90px;
+}
+#carac2{
+    width: 200px;
+    margin-right: 10px;
+}
+#carac2 table{
+    width: 200px;
+}
+#carac2 table tr th{
+    width: 90px;
+}
+#carac3{
+    width: 380px;
+}
+#carac3 table{
+    width: 380px;
+}
+#carac3 table tr th{
+    width: 90px;
+}
+#carac3 table tr td{
+    text-align: left;
+    padding-left: 10px;
+}
+#analisis{
+    height: 450px;
+    overflow: auto;    
+    width: 766px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:12px;
+    color:#333;
+    text-align: justify;
+}
+#similares{
+    margin: 30px 0 20px 0;
+    width: 250px;
+    min-height: 130px;
+}
+#similares p{
+    margin: 10px 0 20px 15px;
+    color: #333;
+    font-size: 13px;
+    line-height:  21px;
+}
+p#analisisP{
+    text-align: right;
+    margin-top: 10px;
+}
+a.analisisBoton{
+    font-size: 22px;
+    /*    text-decoration: underline;*/
+}
+dl#desDetalle{
+    width: 380px;
+    margin: 5px 0 5px 10px;
+    display: block;
+}
+dl#desDetalle dt{
+    margin-right:10px;
+    width:118px;
+}
+dl#desDetalle dd {
+    margin:0 0 0 128px;
+}
+
+#desSocial{
+    margin-top: 10px;
+    margin-left: 10px;
+}

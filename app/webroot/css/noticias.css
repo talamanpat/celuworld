@@ -1,0 +1,55 @@
+/* 
+    Document   : noticias
+    Created on : 15-09-2011, 12:59:16 PM
+    Author     : talaman
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+#noticia{
+    padding: 10px 20px 0 20px;
+    width: 760px;
+    font-size: 12px;
+    text-align: justify;
+/*    line-height: 20px;*/
+}
+#noticia p{
+    margin-top:  0;
+    
+}
+.periodistaFecha{
+    font-size: 11px;
+    float: left;
+    margin-right: 20px;
+}
+#noticiaPost{
+    margin-top: 10px;
+}
+#noticias{
+    padding: 10px 20px ;
+    width: 760px;
+    min-height: 200px;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 30px;
+/*    line-height: 20px;*/
+}
+#noticias h2{
+    font-size: 22px;
+    margin: 10px 0 10px 0;
+    letter-spacing: 1px;
+}
+#seguirComen{
+    margin-top: 10px;
+}
+#seguirComen a{
+    font-size: 14px;    
+    letter-spacing: 1px;
+    margin-right: 20px;
+}

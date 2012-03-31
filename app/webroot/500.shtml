@@ -1,0 +1,16 @@
+<h2>Error del Servidor</h2>
+<p class="error">
+    <strong>
+        Lo sentimos, se ha producido un error en el servidor.
+    </strong>
+    por fabor intente recargar la p&aacute;gina 
+    <strong>
+        <a href="javascript:location.reload()">
+            aqui
+        </a>
+    </strong>.
+</p>
+<p>
+    De no funcionar por fabor vuelva a la p&aacute;gina anterior e int&eacute;ntelo de nuevo, 
+    <a href="javascript:history.back()">Volver</a>.
+</p>

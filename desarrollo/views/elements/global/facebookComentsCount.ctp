@@ -1,0 +1,2 @@
+<fb:comments-count href=http://example.com/></fb:comments-count>
+<iframe src="http://www.facebook.com/plugins/comments.php?href=<?php e($url)?>&permalink=1&target=_blank" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:16px;" allowTransparency="true"></iframe>  

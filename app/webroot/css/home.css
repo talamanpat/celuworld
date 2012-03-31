@@ -1,0 +1,94 @@
+/*padres-------------------------------*/
+
+#sliderHome{
+    margin-top: 20px;
+    height:340px;
+}
+
+
+#sobreCeluworld{
+    margin-top: 20px;
+    height:250px;
+}
+
+/*#noticias{
+    margin-top: 10px;
+    height:150px;
+}*/
+
+
+
+#sobreCeluworldBusqueda{
+    float: right;
+    width: 420px;
+/*    margin-top: 10px;*/
+    margin-right: 10px;
+}
+
+#sobreCeluworldBusqueda #uno {
+    margin: 0 0 20px 0;
+}#sobreCeluworldBusqueda #dos {
+    margin: 20px 0 20px 0;
+}
+
+
+
+
+#sobreCeluworld p {
+    width: 320px;
+    margin: 10px 0 0 15px;
+    color: #333;
+    font-size: 13px;
+    line-height:  21px;
+    text-align: justify;
+}
+
+
+#sobreCeluworldBusqueda p {
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    line-height: 30px;
+    width: 100%;
+    font-weight: 100;
+}
+
+#sobreCeluworldBusqueda a {
+    font-size: 23px;
+}
+
+
+
+/*#noticias p {
+    color: #333;
+    font-size: 26px;
+    text-align: center;
+}*/
+
+#noticias{
+    padding: 10px 20px ;
+    width: 760px;
+    min-height: 200px;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 30px;
+/*    line-height: 20px;*/
+}
+#noticias h2{
+    font-size: 22px;
+    margin: 10px 0 10px 0;
+    letter-spacing: 1px;
+}
+#seguirComen{
+    margin-top: 10px;
+}
+#seguirComen a{
+    font-size: 14px;
+    margin-right: 20px;    
+    letter-spacing: 1px;
+}
+a#masNoticias{
+    display: block;
+    font-size: 22px;
+    margin-right: 40px
+}
